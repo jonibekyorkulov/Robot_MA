@@ -3,7 +3,7 @@ from datetime import datetime
 
 
 def get_news():
-    news_list = ["CPI", "Unemployment"]
+    news_list = ["CPI", "NonFarm", "GDP", "JOLTS"]
     url = "https://nfs.faireconomy.media/ff_calendar_thisweek.json"
 
     today = datetime.now().date()
